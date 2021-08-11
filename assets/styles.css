@@ -1,0 +1,95 @@
+body {
+     background-color: #053742;
+     margin: auto;
+     font-family: Arial, sans-serif;
+}
+
+header {
+     display: block;
+     text-align: center;
+     margin: 50px 30% 50px;
+     color: #A2DBFA;
+}
+
+.head-divide {
+     border: 2px solid #39A2DB;
+     width: 20%;
+}
+
+header p {
+     margin: 25px 0 100px 0;
+}
+
+main {
+     display: flex;
+     flex-flow: row wrap;
+     justify-content: space-around;
+     max-width: 60%;
+     margin: auto;
+}
+
+.notecard {
+     flex: 1 0 300px;
+     margin: 20px;
+     min-width: 25%;
+     height: 300px;
+     width: 400px;
+     padding: 15px;
+     border: 2px dashed #E8F0F2;
+}
+
+.notecard h2 {
+     border: 1px solid #E8F0F2;
+     padding: 10px;
+     border-radius: 20px 0px;
+     transition: all 1s ease-in-out;
+     margin-top: -40px;
+     z-index: 1;
+     color: #39A2DB;
+     background-color: #053742;
+     font: bold 40px;
+}
+
+.notecard p {
+     color: #39A2DB;
+}
+
+.notecard:hover, .notecard h2:hover {
+     box-shadow: inset 0px 0px 8px #A2DBFA;
+}
+
+.code-block {
+     white-space: pre-line;
+     margin: auto;
+     color: #E8F0F2;
+     background-color: #39A2DB;
+     display: block;
+     height: auto;
+     border-radius: 20px;
+     padding: 30px;
+     
+}
+footer {
+     text-align: center;
+     margin: 100px 0 0;
+     background-color: #39A2DB;
+     color: #E8F0F2;
+     height: 50px;
+     padding: 10px;
+}
+
+footer h4 {
+     font: 18px Arial, sans-serif;
+     margin: auto;
+
+}
+
+
+
+
+
+
+/* 
+@media screen and (min-width: 768px) {
+     
+} */
